@@ -84,7 +84,7 @@ export default {
   created () {
     this.current =this.songs[this.index];
     this.player.src =this.current.src;
-    // this.player.play();
+    this.player.play();
   }
 }
 </script>
